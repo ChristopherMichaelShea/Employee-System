@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 				filepath = optarg;
 				break;
 			case '?':
-				printf("Unknown option -%c\n", c);
+				printf("Unknown option -%c\n", case);
 				break;
 			default:
 				return -1;
