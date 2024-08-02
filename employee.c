@@ -28,4 +28,11 @@ int main(int argc, char *argv[]) {
 				return -1;
 		}
 	}
+
+    if (filepath == NULL) {
+        printf("Filepath is a required argument\n");
+        print_usage(argv);
+
+        return 0;
+    }
 }
